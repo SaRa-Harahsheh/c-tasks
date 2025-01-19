@@ -37,11 +37,35 @@ namespace task2_19_1
 
             string text = Console.ReadLine();
             Console.WriteLine($"UpperCase: " +text.ToUpper());   
-            Console.WriteLine($"lowerCase: " + text.ToLower());   
+            Console.WriteLine($"lowerCase: " + text.ToLower());
 
 
             //4---------------
+            Console.WriteLine("Q3.insert your first name & last name");
+            string name = Console.ReadLine();
+            string fName = name.Substring(0, 5);
+            string lName = name.Substring(6);
+            Console.WriteLine(fName);
+            Console.WriteLine(lName);
+            Console.WriteLine(fName.Length + lName.Length);
+            Console.WriteLine();
 
+            //5---------------------
+            
+            Console.WriteLine("Enter Two Numbers:");
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+
+            int num1 = int.Parse(x);
+            int num2 = int.Parse(y);
+
+            if (num1 > num2)
+                Console.WriteLine($"{num1} is larger than {num2}");
+            else if (num2 > num1)
+                Console.WriteLine($"{num2} is larger than {num1}");
+            else
+                Console.WriteLine("Numbers are equal");
+            Console.WriteLine();
         }
     }
 }
