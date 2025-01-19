@@ -13,8 +13,6 @@ namespace c__tasks
         {
             //1 - Create console application that read string from user and print the same string
 
-            
-            //Console.WriteLine("SARA");
             string name =Console.ReadLine();
             Console.WriteLine(name);
 
