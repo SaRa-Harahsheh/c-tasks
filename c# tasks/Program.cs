@@ -12,7 +12,7 @@ namespace c__tasks
         static void Main(string[] args)
         {
             //1 - Create console application that read string from user and print the same string
-
+            Console.WriteLine("Q1.plz insert your name:");
             string name =Console.ReadLine();
             Console.WriteLine(name);
 
@@ -38,8 +38,9 @@ namespace c__tasks
                 Console.WriteLine(i);
             }
 
-            
+
             //4----
+            Console.WriteLine("Q4.plz insert your first name,last name,your birth");
             string fName = Console.ReadLine() ;
             string lName = Console.ReadLine();
             string birth = Console.ReadLine();
@@ -47,10 +48,17 @@ namespace c__tasks
             Console.WriteLine(fName+" "+ lName +" "+ birth);
 
             //5----
+            Console.WriteLine("Q5.plz insert TEN numbers");
+
             string[] numbers = new string[10];
             for (int i = 0; i < 10; i++)
             {
                 numbers[i] = Console.ReadLine();
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(numbers[i]);
             }
 
         }
