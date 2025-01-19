@@ -20,12 +20,16 @@ namespace c__tasks
             double myDouble = 2.22;
             string TEXT = "sara";
             char ch = 's';
-            bool s = true;
-            int m = 11;
+            bool twoValue = true;
+            int integar = 11;
             const int teach = 23;
-            Console.WriteLine("dOUBLE VAR: " + myDouble);
-            Console.WriteLine("string" + TEXT);
 
+            Console.WriteLine("dOUBLE VAR: " +" "+ myDouble);
+            Console.WriteLine("string"+" " + TEXT);
+            Console.WriteLine("charcter"+" "+ ch);
+            Console.WriteLine("BOOlean"+" "+ twoValue);
+            Console.WriteLine("integar"+ " "+integar);
+            Console.WriteLine("constant"+ teach);
 
             //3------
             string[] cars = { "mrs", "bmw", "odi" };
@@ -34,7 +38,7 @@ namespace c__tasks
                 Console.WriteLine(i);
             }
 
-
+            
             //4----
             string fName = Console.ReadLine() ;
             string lName = Console.ReadLine();
