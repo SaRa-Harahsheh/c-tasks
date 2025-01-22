@@ -47,7 +47,7 @@ namespace task5_c_22_1
             Car car = new Car();
             car.Brand = "camry";
 
-            car.Model = 2024;
+           car.Model = 2024;
             vehical.Start();
             car.Start();
 
