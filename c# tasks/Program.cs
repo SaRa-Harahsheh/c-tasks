@@ -58,7 +58,7 @@ namespace c__tasks
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(numbers[i]);
+                Console.Write(numbers[i]);
             }
 
         }

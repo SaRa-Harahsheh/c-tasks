@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace task5_c_22_1
 {
-    class Vehicle
+     class Vehicle
     {
 
        public string Brand { get; set; }  // auto proprety
@@ -21,8 +21,11 @@ namespace task5_c_22_1
         {
             Console.WriteLine($"Brand: {Brand} , Model: {Model}");
         }
-        
+
+      
+
     }
+
 
     class Car : Vehicle 
     {
@@ -45,11 +48,13 @@ namespace task5_c_22_1
 
 
             Car car = new Car();
-            car.Brand = "camry";
+            car.Brand = "Mercedes";
 
-           car.Model = 2024;
+            car.Model = 2024;
             vehical.Start();
             car.Start();
+
+            car. DisplayInformation();
 
         }
     }
